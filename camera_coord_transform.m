@@ -13,9 +13,9 @@
 
 
 clc; clear; close all
-filename = 'ex3_testimg.png';
+filename = 'testimg.png';
 img = im2double(rgb2gray(imread(filename)));  % double is required to carry out projective maps without the error induced by uint8
-name = 'ex3';
+name = 'RearViewCameraImage';
 imshow(img);
 
 % [c r p] = impixel;   % pixels were initially selected using impixel
